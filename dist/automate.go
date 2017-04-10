@@ -15,7 +15,7 @@ import (
 var buildScript, pkgDir, distDir, buildDir, releaseDir string
 
 func init() {
-	pkgDir = filepath.Join(os.Getenv("GOPATH"), "src", "github.com", "channelmeter", "vault-gatekeeper-mesos")
+	pkgDir = filepath.Join(os.Getenv("GOPATH"), "src", "github.com", "psfblair", "vault-gatekeeper-mesos")
 	buildScript = filepath.Join(pkgDir, "build.bash")
 	distDir = filepath.Join(pkgDir, "dist")
 	buildDir = filepath.Join(distDir, "builds")

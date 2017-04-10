@@ -259,7 +259,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/channelmeter/vault-gatekeeper-mesos/gatekeeper"
+	"github.com/psfblair/vault-gatekeeper-mesos/gatekeeper"
 )
 
 func main() {

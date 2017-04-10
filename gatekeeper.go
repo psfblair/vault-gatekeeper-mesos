@@ -6,7 +6,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/channelmeter/vault-gatekeeper-mesos/gatekeeper"
+	"github.com/psfblair/vault-gatekeeper-mesos/gatekeeper"
 	"github.com/franela/goreq"
 	"github.com/gin-gonic/gin"
 	"log"
@@ -279,7 +279,7 @@ func intro() {
 	fmt.Println(" __")
 	fmt.Println("/__ _ _|_ _ |/  _  _ |_) _  __")
 	fmt.Println("\\_|(_| |_(/_|\\ (/_(/_|  (/_ |")
-	fmt.Println("github.com/channelmeter/vault-gatekeeper-mesos")
+	fmt.Println("github.com/psfblair/vault-gatekeeper-mesos")
 	fmt.Println("Version: " + gitNearestTag)
 }
 

@@ -5,9 +5,9 @@ dist: trusty
 
 before_install:
   - cd $HOME
-  - mv $HOME/gopath/src/github.com/ChannelMeter $HOME/gopath/src/github.com/channelmeter
-  - TRAVIS_BUILD_DIR=$HOME/gopath/src/github.com/channelmeter/vault-gatekeeper-mesos
-  - cd $HOME/gopath/src/github.com/channelmeter/vault-gatekeeper-mesos
+  - mv $HOME/gopath/src/github.com/psfblair $HOME/gopath/src/github.com/psfblair
+  - TRAVIS_BUILD_DIR=$HOME/gopath/src/github.com/psfblair/vault-gatekeeper-mesos
+  - cd $HOME/gopath/src/github.com/psfblair/vault-gatekeeper-mesos
 
 #cache:
 #  directories:
